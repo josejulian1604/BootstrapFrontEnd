@@ -1,0 +1,353 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: #59359A;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 600;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+a, span {
+    font-weight: 600;
+}
+
+pre {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5; 
+    white-space: pre-wrap; 
+    background: none; 
+    border: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.first-screen {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 100px; 
+    gap: 0px;
+}
+
+.first-screen > div:first-child {
+    flex: 1; 
+}
+
+.first-screen > div:last-child {
+    flex: 1; 
+    margin-top: 5%;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.custom-background {
+    background-color: #59359A;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white; 
+}
+
+.btn-primary, .btn.free-trial {
+    background-color: #6F42C1;
+    color: white; 
+    border-color: #6F42C1; 
+    font-weight: 600;
+}
+
+.btn-primary:hover, .btn.free-trial:hover {
+    background-color: #A98EDA;
+    color: black;
+}
+
+.btn.free-trial {
+    margin: 10px;
+}
+
+.btn-download {
+    background-color: white;
+    color: black; 
+    font-weight: 600;
+}
+
+.btn-download:hover {
+    background-color: #A98EDA;
+    color: white; 
+}
+
+.center-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;  
+}
+
+.center-top h1 {
+    margin-bottom: 20px; 
+}
+
+.center-top p {
+    max-width: 600px;
+}
+
+.bottom-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 80px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-img-top {
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.price-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price-cards .card {
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    border-color: #e4e4e4;
+}
+
+.list-group-item {
+    border: none; 
+}
+
+.price-cards .card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.price-cards .list-group-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #686868; 
+    font-size: 14px; 
+}
+
+.card-footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.price-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #e2d9f3;
+    border-radius: 4px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.dollar-sign {
+    font-size: 0.3em; 
+    vertical-align: super;
+    color: black;
+    padding-right: 10px;
+}
+
+.price h1 {
+    font-size: 4em; 
+    margin: 0;
+    color: black;
+}
+
+.per-month {
+    display: inline-block;
+    font-size: 0.3em; 
+    line-height: 1em; 
+    vertical-align: bottom;
+    text-align: left; 
+    color: black;
+    margin-bottom: 10px;
+}
+
+.btn-GetStarted1 {
+    background-color: #59359A;
+    color: white;
+    padding: 10px;
+}
+
+.btn-GetStarted1:hover {
+    background-color: #A98EDA;
+}
+
+.btn-GetStarted2 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.btn-GetStarted2:hover {
+    background-color: #A98EDA;
+    color: white
+}
+
+.btn-Free-Demo {
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+
+.btn-Free-Demo:hover {
+    background-color: #A98EDA;
+    color: white;
+}
+
+.custom-background .center-top h1{
+    margin-bottom: 20px;
+    margin-top: 300px;
+}
+
+.custom-page-footer {
+    background-color: #160d27;
+}
+
+.custom-page-footer h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.custom-page-footer p {
+    color: #585858;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    gap: 20px; /* Espacio entre columnas */
+    margin: 0; /* Elimina margen que podría afectar el alineamiento */
+}
+
+.footer-columns > div {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.about-me, .newsletter, .follow-me {
+    max-width: 100%; /* Ajusta al ancho máximo disponible en cada columna */
+    margin-left: 50px;
+}
+
+.email-subscribe {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.email-subscribe input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 300px;
+    font-size: 16px;
+}
+
+.email-subscribe button {
+    background-color: #59359A; 
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.email-subscribe button span {
+    font-size: 18px;
+    color: white;
+}
+
+.email-subscribe input[type="email"]::placeholder {
+    color: #ccc;
+    opacity: 1;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Espacio entre los íconos sociales */
+}
+
+.footer-socials .img-fluid {
+    max-width: 20px;
+}
